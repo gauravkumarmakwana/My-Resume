@@ -1,0 +1,51 @@
+/*  Created On : 21/07/2022 14:56  */
+/* CSS File  */
+
+/* # # # # # # # # # # # # # # # #  */
+body{
+    margin: 0px;
+}
+/* # # # # # # # # # # # # # # # # 
+# # # # # # # # # # # # # # # # # # */
+#body-header{
+    height: 70vh;
+    background-image: url(./Static/macbook_mouse.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.8;
+}
+
+/* # # # # # # # # # # # # # # # #  */
+
+/* Common Proporty of Horizontal Nav Bar  */
+.horizontal-nav{
+    text-align: center;
+    margin: 0px;
+}
+.horizontal-nav li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 13px;
+    font-size: 1.75rem;
+    margin-top: 4vh;
+}
+
+.nav-1 a{
+    color: aliceblue;
+    text-decoration: none;
+}
+/* # # # # # # # # # # # */
+
+/* name heading : 1  */
+#name-heading{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 13vh;
+    font-size: 3rem;
+}
+
+/* # # # # # # # # # # # */
+.nav-2 a{
+    color: aqua;
+}
