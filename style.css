@@ -1,11 +1,9 @@
-/*  Created On : 21/07/2022 14:56  */
-/* CSS File  */
-
-/* # # # # # # # # # # # # # # # #  */
 body{
     margin: 0px;
+    /* width: 1345px; */
 }
 /* # # # # # # # # # # # # # # # # 
+    Header Section
 # # # # # # # # # # # # # # # # # # */
 #body-header{
     height: 70vh;
@@ -21,19 +19,29 @@ body{
 /* Common Proporty of Horizontal Nav Bar  */
 .horizontal-nav{
     text-align: center;
-    margin: 0px;
+    margin: auto;
+    /* height: 82px; */
 }
 .horizontal-nav li{
     display: inline-block;
     list-style: none;
     margin: 0 13px;
-    font-size: 1.75rem;
+    font-size: 1.75rem; 
+}
+.nav-1 li{
     margin-top: 4vh;
 }
-
 .nav-1 a{
     color: aliceblue;
     text-decoration: none;
+}
+.nav-1 li a:hover{
+    color: aqua;
+    transition: color 1.5s;
+    border-bottom: 1px solid rgb(212, 164, 164);
+    border-radius: 5px;
+    padding-bottom: 2px;
+    transition: color 1.5s, border 0.5s;
 }
 /* # # # # # # # # # # # */
 
@@ -41,11 +49,68 @@ body{
 #name-heading{
     color: aliceblue;
     text-align: center;
-    margin-top: 13vh;
+    margin-top: 20vh;
     font-size: 3rem;
 }
 
 /* # # # # # # # # # # # */
-.nav-2 a{
+/* Social Icons navigation Bar  */
+.nav-2 li a i{
+    padding: 10px;
     color: aqua;
+    border-radius: 50%;
 }
+.nav-2 li a i:hover{
+    box-shadow: 0px 0px 6px rgb(197, 60, 45);
+    transition: 0.5s
+}
+/* Header section End  */
+
+/*  # # # # # # # # # #
+    Main Section Start  
+    # # # # # # # # # #   */
+
+/* Add CSS in Section  */
+section{
+    width: 100%;
+    height: 100vh;
+}
+section:nth-child(2n){
+    background-color: rgba(250, 235, 215, 0.24);
+}
+section:nth-child(2n+1){
+    background-color: rgba(255, 228, 196, 0.311);
+}
+section:target{
+    background-color: cyan;
+}/*End common Section */
+
+/*  # # # # # # # # #
+ About Section Start 
+ # # # # # # # # # # # # */
+#about{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+.my-photo{
+    position: relative;
+    height: 18rem;
+    width: 18rem ;
+    margin: auto;
+    margin-top: -17vh;
+}
+.my-photo img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.about-para{
+    margin: 5vh auto;
+
+    font-size: 1.5rem;
+    width: 50%;
+    overflow-wrap: break-word;
+}
+/* About section End  */
+
