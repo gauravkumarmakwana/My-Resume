@@ -72,14 +72,17 @@ body{
 
 /* Add CSS in Section  */
 section{
-    width: 100%;
-    height: 100vh;
-}
-section:nth-child(2n){
-    background-color: rgba(250, 235, 215, 0.24);
+    width: 80%;
+    margin: auto;
+    /* height: 100vh; */
 }
 section:nth-child(2n+1){
-    background-color: rgba(255, 228, 196, 0.311);
+    /* background-color: rgba(250, 235, 215, 0.24); */
+    background-color: white;
+}
+section:nth-child(2n){
+    background-color: rgb(208 202 194 / 31%);
+    /* background-color: red; */
 }
 section:target{
     background-color: cyan;
@@ -92,6 +95,8 @@ section:target{
     text-align: center;
     margin: auto;
     width: 100%;
+    /* position: relative; */
+    /* overflow: hidden; */
 }
 .my-photo{
     position: relative;
@@ -114,3 +119,83 @@ section:target{
 }
 /* About section End  */
 
+/* ======= Skills ======= */
+
+/* skill heading  */
+#skills h1{
+    text-align: center;
+    font-size: 3rem;
+}
+.hf:hover > .skill-icon{
+    color: rgb(0, 202, 202);
+    transition: 0.5s ease-in-out;
+}
+.hf:hover > .skill-heading{
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+.skill-heading{
+    color: rgb(0, 202, 202);
+}
+.skill-icon{
+    color: black;
+}/*skill heading end */
+/* skill display start  */
+.skill-display{
+    height: 50vh;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+.skills-outer{
+    width: 180px;
+    height: 35px;
+    background-color: grey;
+    border-radius: 38px;
+}
+.skills-outer div{
+    height: 100%;
+    border-radius: 38px 0px 0px 38px
+}
+.skills-outer span{
+    width: 100%;
+    text-align: center;
+    padding-top: 7%;
+    display: inline-block;
+    color: white;
+}
+#skills-first{
+    background-color: rgb(242 157 0);
+    width: 70%;
+}
+#skills-Second{
+    background-color: blue;
+    width: 50%;
+}
+#skills-Third{
+    background-color: brown;
+    width: 70%;
+}
+#skills-Fourth{
+    background-color: green;
+    width: 60%;
+}
+#skills-Fifth{
+    background-color: blue;
+    width: 80%;
+}
+#skills-Sixth{
+    background-color: rgb(242 157 0);
+    width: 50%;
+}
+#skills-Seventh{
+    background-color: green;
+    width: 40%;
+}
+#skills-Eighth{
+    background-color: brown;
+    width: 30%;
+}
