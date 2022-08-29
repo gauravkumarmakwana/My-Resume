@@ -122,7 +122,7 @@ section:target{
 /* ======= Skills ======= */
 
 /* skill heading  */
-#skills h1{
+.hf{
     text-align: center;
     font-size: 3rem;
 }
@@ -198,4 +198,75 @@ section:target{
 #skills-Eighth{
     background-color: brown;
     width: 30%;
+}/* skill section end */
+
+/* ======= Work experience ======= */
+.timeline{
+    /* border: 1px solid black; */
+    position: relative;
+}
+.timeline-box{
+    /* border: 2px solid black; */
+    width: 40%;
+    margin: 1%;
+    position: relative;
+}
+.timeline-box:nth-child(2n){
+    /* position: relative; */
+    left: 58.12%;
+}
+.timeline-box:nth-child(2n+1) .timeline-box-content{
+    /* position: relative; */
+    text-align: right;
+}
+.timeline-box-content{
+    margin: 0px;
+}
+.timeline-box h3{
+    margin: 10px 0px;
+}
+.timeline-box h4{
+    margin: 5px 0px;
+}
+.line{
+    border-left: 3px dashed red;
+    width: 0;
+    height: 75%;
+    /* margin: 10px 0px; */
+    top: 10%;
+    position: absolute;
+    left: 50%;
+}
+.time-traveller{
+    rotate: 90deg;
+    position: sticky;
+    left: 50%;
+    top: 50%;
+}
+.timeline-box:nth-child(2n)::after{
+    content: '';
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 27.5%;
+    left: -23.5%;
+}
+.timeline-box:nth-child(2n+1)::after{
+    content: '';
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 27.5%;
+    right: -23.5%;
+}/*Work Experience section end */
+
+
+
+
+#education,#portfolio , #contact{
+    height: 100vh;
 }
