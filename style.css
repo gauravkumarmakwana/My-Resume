@@ -20,7 +20,6 @@ body{
 .horizontal-nav{
     text-align: center;
     margin: auto;
-    /* height: 82px; */
 }
 .horizontal-nav li{
     display: inline-block;
@@ -74,19 +73,15 @@ body{
 section{
     width: 80%;
     margin: auto;
-    /* height: 100vh; */
 }
 section:nth-child(2n+1){
-    /* background-color: rgba(250, 235, 215, 0.24); */
     background-color: white;
 }
 section:nth-child(2n){
     background-color: rgb(208 202 194 / 31%);
     /* background-color: red; */
 }
-section:target{
-    background-color: cyan;
-}/*End common Section */
+/*End common Section */
 
 /*  # # # # # # # # #
  About Section Start 
@@ -140,10 +135,10 @@ section:target{
 .skill-icon{
     color: black;
 }/*skill heading end */
+
 /* skill display start  */
 .skill-display{
     height: 50vh;
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -168,34 +163,42 @@ section:target{
     color: white;
 }
 #skills-first{
+    /* C++ */
     background-color: rgb(242 157 0);
     width: 70%;
 }
 #skills-Second{
+    /* C */
     background-color: blue;
     width: 50%;
 }
 #skills-Third{
+    /* HTML */
     background-color: brown;
     width: 70%;
 }
 #skills-Fourth{
+    /* CSS */
     background-color: green;
     width: 60%;
 }
 #skills-Fifth{
+    /* Github */
     background-color: blue;
     width: 80%;
 }
 #skills-Sixth{
+    /* Git */
     background-color: rgb(242 157 0);
     width: 50%;
 }
 #skills-Seventh{
+    /* JavaScript */
     background-color: green;
     width: 40%;
 }
 #skills-Eighth{
+    /* DS */
     background-color: brown;
     width: 30%;
 }/* skill section end */
